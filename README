@@ -1,0 +1,26 @@
+lioraryepaz
+
+=============================
+=  File description - EX0   =
+=============================
+Book.java - contains the Book implementation
+Patron.java - implements the Patron class.
+Library.java - execute most of the program activities.
+
+
+
+=============================
+=          Design           =
+=============================
+i implemented the Patron and Book as completely independent, and the library is the main class of my program,
+which execute and follow-ups on most commands and order between cases.
+the library is being used as the connector between all of the objects.
+
+
+
+=============================
+=  Implementation details   =
+=============================
+In the library, i chose to hold 3 main arrays -
+Book objects arrays - every index of book in the array as an id. contains all registered books in the library
+Patron objects arrays - every index of patron in the array as an id. contains all registered patrons in the library
